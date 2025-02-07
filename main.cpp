@@ -23,7 +23,7 @@ int main() {
 
     // Input
     cout << "Movie name: ";
-    getline(in, movieName)
+    getline(cin, movieName);
 
     cout << "Adult Tickets Sold: ";
     cin >> adultTickets;
@@ -33,8 +33,17 @@ int main() {
 
     // Calculations
     // Gross profit
+    double  grossProfit = (adultTickets * ADULT_PRICE) + (childTickets * CHILD_PRICE);
 
-    double  grossProffit = (adultTickets * ADULT_PRICE) + (childTickets * CHILD_PRICE)
+    // Net profit
+    double netProfit = grossProfit * THEATER_PERCENTAGE;
+
+    // Distributor payment
+    double distributorPayment = grossProfit - netProfit;
+
+
+
+
 
 
 
