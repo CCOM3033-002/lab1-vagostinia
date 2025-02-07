@@ -31,6 +31,11 @@ int main() {
     cout << "Child Tickets Sold: ";
     cin >> childTickets;
 
+    // Calculations
+    // Gross profit
+
+    double  grossProffit = (adultTickets * ADULT_PRICE) + (childTickets * CHILD_PRICE)
+
 
 
 
