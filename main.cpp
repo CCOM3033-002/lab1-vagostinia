@@ -42,12 +42,19 @@ int main() {
     double distributorPayment = grossProfit - netProfit;
 
 // Display results
-cout « fixed < setprecision(2); // Format output to 2 decimal places cout < "\n--- Box Office Report ---\n"; cout < "Movie Name: " << movieName << endl; cout < "Adult Tickets Sold: " < adultTickets << endl; cout < "Child Tickets Sold: " << childTickets < endl; cout < "Gross Box Office Profit: $" « grossProfit « endl; cout < "Net Box Office Profit: $" << netProfit < endl; cout « "Amount Paid to Distributor: $" < distributorPayment < endl;
+cout << fixed << setprecision(2); // Format output to 2 decimal places
+cout <<"\n--- Box Office Report ---\n"; 
+cout << "Movie Name: " << movieName << endl; 
+cout << "Adult Tickets Sold: " << adultTickets << endl; 
+cout << "Child Tickets Sold: " << childTickets << endl; 
+cout << "Gross Box Office Profit: $" << grossProfit << endl; 
+cout << "Net Box Office Profit: $" << netProfit << endl; 
+cout << "Amount Paid to Distributor: $" << distributorPayment << endl;
 
 
 
 
-
+return 0;
 
 
 
