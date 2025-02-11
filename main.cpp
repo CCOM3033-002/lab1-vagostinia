@@ -48,7 +48,7 @@ int main() {
     cout << left << setw(25) << "Child Tickets Sold:" << "  " << setw(10) << childTickets << endl;
     cout << left << setw(25) << "Gross Box Office Profit:" << "  $  " << setw(8) << grossProfit << endl;
     cout << left << setw(25) << "Net Box Office Profit:" << "  $   " << setw(8) << netProfit << endl;
-    cout << left << setw(25) << "Amount Paid to Distributor:" << "  $  " << setw(8) << distributorPayment << endl;
+    cout << left << setw(25) << "Amount Paid to Distributor:" << "$  " << setw(8) << distributorPayment << endl;
 
 
 
