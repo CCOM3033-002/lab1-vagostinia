@@ -42,14 +42,13 @@ int main() {
     double distributorPayment = grossProfit - netProfit;
 
 // Display results
-cout << fixed << setprecision(2); 
-
-cout << "Movie Name: \"" << movieName << "\"" << endl; 
-cout << "Adult Tickets Sold: " << adultTickets << endl; 
-cout << "Child Tickets Sold: " << childTickets << endl; 
-cout << "Gross Box Office Profit: " << setw(10) << "$" << setw(9) << grossProfit << endl; 
-cout << "Net Box Office Profit: " << setw(10) << "$" << setw(9) << netProfit << endl; 
-cout << "Amount Paid to Distributor: " << setw(10) << "$" << setw(9)<< distributorPayment << endl;
+    cout << fixed << setprecision(2);
+    cout << left << setw(25) << "Movie Name:" << "  \"" << movieName << "\"" << endl;
+    cout << left << setw(25) << "Adult Tickets Sold:" << "  " << setw(10) << adultTickets << endl;
+    cout << left << setw(25) << "Child Tickets Sold:" << "  " << setw(10) << childTickets << endl;
+    cout << left << setw(25) << "Gross Box Office Profit:" << "  $  " << setw(8) << grossProfit << endl;
+    cout << left << setw(25) << "Net Box Office Profit:" << "  $   " << setw(8) << netProfit << endl;
+    cout << left << setw(25) << "Amount Paid to Distributor:" << "  $  " << setw(8) << distributorPayment << endl;
 
 
 
