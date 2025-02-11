@@ -1,6 +1,6 @@
 // Victoria S. Agostini
 // 801-22-4654
-// Lab Box Office
+// Lab: Box Office
 
 #include <iostream>
 #include <iomanip>
@@ -44,12 +44,12 @@ int main() {
 // Display results
 cout << fixed << setprecision(2); 
 
-cout << "Movie Name: " << movieName << endl; 
+cout << "Movie Name: \"" << movieName << "\"" << endl; 
 cout << "Adult Tickets Sold: " << adultTickets << endl; 
 cout << "Child Tickets Sold: " << childTickets << endl; 
-cout << "Gross Box Office Profit: $" << grossProfit << endl; 
-cout << "Net Box Office Profit: $" << netProfit << endl; 
-cout << "Amount Paid to Distributor: $" << distributorPayment << endl;
+cout << "Gross Box Office Profit: " << setw(10) << "$" << setw(9) << grossProfit << endl; 
+cout << "Net Box Office Profit: " << setw(10) << "$" << setw(9) << netProfit << endl; 
+cout << "Amount Paid to Distributor: " << setw(10) << "$" << setw(9)<< distributorPayment << endl;
 
 
 
