@@ -1,6 +1,7 @@
 // Victoria S. Agostini
 // 801-22-4654
 // Lab: Box Office
+// Colaboradores: https://cplusplus.com/reference/ios/left/ , https://cplusplus.com/reference/ios/fixed/
 
 #include <iostream>
 #include <iomanip>
